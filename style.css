@@ -76,9 +76,9 @@ h1, h2, h3 {
     }
 }
 
-h1 { font-size: 21px; }
-h2 { font-size: 20px; }
-h3 { font-size: 19px; }
+h1 { font-size: 19px; }
+h2 { font-size: 18px; }
+h3 { font-size: 17px; }
 
 /* Main Container for the two columns */
 .page-container {
@@ -251,7 +251,7 @@ a[data-tooltip]::after {
   color: #000000;
   padding: 4px 8px;
   border-radius: 2px;
-  font-size: 16px;
+  font-size: 14px;
   white-space: normal;
   width: max-content;
   max-width: 240px;
@@ -313,7 +313,7 @@ summary {
   color: #000000;
   padding: 4px 8px;
   border-radius: 2px;
-  font-size: 18px;
+  font-size: 16px;
   white-space: normal;
   width: max-content;
   max-width: 240px;
@@ -384,7 +384,7 @@ summary {
   padding: 8px 12px;
   border-radius: 2px;
   /* box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15); */
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.4;
   margin-bottom: 10px;
   margin-top: 10px;
@@ -403,7 +403,7 @@ summary {
     background-color: #cacaca;
     border: 1px solid #cacaca;
     padding: 4px 10px;
-    font-size: 16px;
+    font-size: 14px;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
@@ -472,7 +472,7 @@ summary {
 /* Footer Style */
 .footer {
     margin-top: 20px;
-    font-size: 12px;
+    font-size: 10px;
     text-align: center;
     color: #fdfdfc;
     width: 100%;
