@@ -16,15 +16,14 @@
      Copyright (c) 2025 Edoardo Loru
 */
 
-/* Font */
-@import url('https://fonts.cdnfonts.com/css/pf-din-text-cond-pro-light');
-
-/* Icons */
-@import url('https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/duotone/style.css');
-
 .ph-duotone {
     vertical-align: middle;
     font-size: 30px;
+}
+
+/* Use fallback font while custom font loads */
+@font-face {
+  font-display: swap;
 }
 
 /* Global Styles */
@@ -166,7 +165,7 @@ h3 { font-size: 19px; }
     padding: 0px 0;
     line-height: 1.4;
     color: #000000;
-           }
+}
 @media (prefers-color-scheme: dark) {
     .box-content {
         color: #dddddd;
@@ -191,7 +190,7 @@ a {
     color: black;
     text-decoration: none;
     border-bottom: 1px dotted black;
-                   }
+}
 @media (prefers-color-scheme: dark) {
     a {
         color: #dddddd;
@@ -247,7 +246,7 @@ a[data-tooltip]::after {
   z-index: 100;
   transition: opacity 0.2s ease-in-out;
   font-weight: normal;
-               }
+}
 @media (prefers-color-scheme: dark) {
     a[data-tooltip]::after {
         background-color: #222222;
@@ -309,7 +308,7 @@ summary {
   pointer-events: none;
   z-index: 100;
   transition: opacity 0.2s ease-in-out;
-              }
+}
 
 @media (prefers-color-scheme: dark) {
     .paper-title::after {
@@ -375,7 +374,7 @@ summary {
   line-height: 1.4;
   margin-bottom: 10px;
   margin-top: 10px;
-              }
+}
 @media (prefers-color-scheme: dark) {
 .abstract-box {
     background-color: #222222;
@@ -403,7 +402,7 @@ summary {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-                }
+}
 @media (prefers-color-scheme: dark) {
     .button {
         background-color: #1e1e1e;
