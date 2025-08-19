@@ -21,9 +21,20 @@
     font-size: 30px;
 }
 
-/* Use fallback font while custom font loads */
 @font-face {
-  font-display: swap;
+    font-family: 'Roboto Condensed';
+    src: url('https://raw.githubusercontent.com/edlor/edlor.github.io/main/assets/fonts/Roboto-Condensed/RobotoCondensed-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900; /* allows any weight in this range */
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('https://raw.githubusercontent.com/edlor/edlor.github.io/main/assets/fonts/Roboto-Condensed/RobotoCondensed-Italic-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900; /* allows any weight in this range */
+    font-style: italic;
+    font-display: swap;
 }
 b {
     font-weight: 400;
