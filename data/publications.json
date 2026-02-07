@@ -1,0 +1,147 @@
+[
+  {
+    "title": "Wikipedia and Grokipedia: A Comparison of Human and Generative Encyclopedias",
+    "highlights": [
+      "We compare Wikipedia and Grokipedia v0.1",
+      "Wikipedia pages most often rewritten by Grok are those with more references and reverts",
+      "Wikipedia's editors show event-driven activity, while Grokipedia's favor specific topics",
+      "Shifts in narrative and framing are restricted to salient pages, particularly for U.S. politics"
+    ],
+    "venue": "arXiv",
+    "year": 2026,
+    "authors": "Ortal Hadad, Edoardo Loru, Jacopo Nudo, Anita Bonetti, Matteo Cinelli, Walter Quattrociocchi",
+    "abstract": "We present a comparative analysis of Wikipedia and Grokipedia to examine how generative mediation alters content selection, textual rewriting, narrative structure, and evaluative framing in encyclopedic content. We model page inclusion in Grokipedia as a function of Wikipedia page popularity, density of reference, and recent editorial activity. Inclusion is non-uniform: pages with higher visibility and greater editorial conflict in Wikipedia are more likely to appear in Grokipedia. For included pages, we distinguish between verbatim reproduction and generative rewriting. Rewriting is more frequent for pages with higher reference density and recent controversy, while highly popular pages are more often reproduced without modification. We compare editing activity across the two platforms and estimate page complexity using a fitness-complexity framework to assess whether generative mediation alters patterns of editorial participation. To assess narrative organization, we construct actor-relation networks from article texts using abstract meaning representation. Across multiple topical domains, including U.S. politics, geopolitics, and conspiracy-related narratives, narrative structure remains largely consistent between the two sources. Analysis of lead sections shows broadly correlated framing, with localized shifts in laudatory and conflict-oriented language for some topics in Grokipedia. Overall, generative systems preserve the main structural organization of encyclopedic content, while affecting how content is selected, rewritten, and framed.",
+    "doi": "10.48550/arXiv.2602.05519",
+    "cite": "Hadad, O., Loru, E., Nudo, J., Bonetti, A., Cinelli, M., & Quattrociocchi, W. (2026). Wikipedia and Grokipedia: A Comparison of Human and Generative Encyclopedias (Version 1). arXiv. https://doi.org/10.48550/ARXIV.2602.05519"
+  },
+  {
+    "title": "Generative exaggeration in LLM social agents: Consistency, bias, and toxicity",
+    "highlights": [
+      "We simulate 1,000+ political users on X using LLM agents from three model families",
+      "Few-shot initialization boosts ideological consistency but increases polarization and toxicity",
+      "LLMs amplify salient identity traits, reconstructing users with structural distortions",
+      "These distortions raise concerns for social simulations, behavioral modeling, and daily use"
+    ],
+    "venue": "Online Social Networks and Media",
+    "year": 2025,
+    "authors": "Jacopo Nudo, Mario Edoardo Pandolfo, Edoardo Loru, Mattia Samory, Matteo Cinelli, Walter Quattrociocchi",
+    "abstract": "We investigate how Large Language Models (LLMs) behave when simulating political discourse on social media. Leveraging 21 million interactions on X during the 2024 U.S. presidential election, we construct LLM agents based on 1186 real users, prompting them to reply to politically salient tweets under controlled conditions. Agents are initialized either with minimal ideological cues (Zero Shot) or recent tweet history (Few Shot), allowing one-to-one comparisons with human replies. We evaluate three model families — Gemini, Mistral, and DeepSeek — across linguistic style, ideological consistency, and toxicity. We find that richer contextualization improves internal consistency but also amplifies polarization, stylized signals, and harmful language. We observe an emergent distortion that we call “generation exaggeration”: a systematic amplification of salient traits beyond empirical baselines. Our analysis shows that LLMs do not emulate users, they reconstruct them. Their outputs, indeed, reflect internal optimization dynamics more than observed behavior, introducing structural biases that compromise their reliability as social proxies. This challenges their use in content moderation, deliberative simulations, and policy modeling.",
+    "doi": "10.1016/j.osnem.2025.100344",
+    "cite": "Nudo, J., Pandolfo, M. E., Loru, E., Samory, M., Cinelli, M., & Quattrociocchi, W. (2026). Generative exaggeration in LLM social agents: Consistency, bias, and toxicity. Online Social Networks and Media, 51, 100344. https://doi.org/10.1016/j.osnem.2025.100344"
+  },
+  {
+    "title": "A Compression-Based Approach to Detecting Automated and Coordinated Behavior on Social Media",
+    "highlights": [
+     "We propose a new method for suspicious users detection on social media",
+     "User activity is encoded as a string and then compressed with gzip",
+     "User similarity network is constructed with a novel linear-time heuristic",
+     "The method is competitive across both bot and CB detection datasets"
+    ],
+    "venue": "ACM Transactions on Knowledge Discovery from Data",
+    "year": 2025,
+    "authors": "Edoardo Loru, Niccolò Di Marco, Matteo Cinelli, Walter Quattrociocchi",
+    "abstract": "Social media platforms are frequently targeted by entities engaging in automated or coordinated behavior, aiming to manipulate public opinion or conduct information operations without revealing their synthetic or managed nature. Research on detecting such actors faces the challenge of developing scalable, versatile methods that allow for consistent comparisons across diverse datasets. The challenge is even made more pressing by evidence of these actors on platforms beyond the extensively studied X (formerly Twitter), as well as the emergence of new platforms. We fill this gap by introducing a novel compression-based detection methodology, in addition to a new sparse method for network reconstruction that scales linearly under reasonable parameter choice. Being independent of the social media platform and the behavioral trace under study, our approach marks a departure from traditional methods that rely on multiple criteria or measures to assess user similarity. We evaluate our technique on multiple benchmark and real-world datasets, including widely known datasets related to political campaigns and emerging misinformation scenarios. We show that our approach provides a flexible unsupervised framework that effectively identifies both automated and coordinated activities across various behavioral traces, ensuring broad applicability.",
+    "doi": "10.1145/3778356",
+    "cite": "Loru, E., Di Marco, N., Cinelli, M., & Quattrociocchi, W. (2025). A Compression-Based Approach to Detecting Automated and Coordinated Behavior on Social Media. ACM Transactions on Knowledge Discovery from Data. https://doi.org/10.1145/3778356"
+  },
+  {
+    "title": "Ideology and polarization set the agenda on social media",
+    "highlights": [
+     "We analyze engagement across three global debates on X",
+     "Discussions are not primarily driven by specific actors, such as media or politicians",
+     "The main driver is shared ideological alignment and polarization",
+     "A mainstream vs alternative configuration emerges across all debates",
+     "User stance in one debate predicts their stance in another"
+    ],
+    "venue": "Scientific Reports",
+    "year": 2025,
+    "authors": "Edoardo Loru, Alessandro Galeazzi, Anita Bonetti, Emanuele Sangiorgio, Niccolò Di Marco, Matteo Cinelli, Max Falkenberg, Andrea Baronchelli, Walter Quattrociocchi",
+    "abstract": "The abundance of information on social media has reshaped public discussions, shifting attention to the mechanisms that drive online discourse. This study analyzes large-scale Twitter (now X) data from three global debates—Climate Change, COVID-19, and the Russo-Ukrainian War—to investigate the structural dynamics of engagement. Our findings reveal that discussions are not primarily shaped by specific categories of actors, such as media or activists, but by shared ideological alignment. Users consistently form polarized communities, where their ideological stance in one debate predicts their positions in others. This polarization transcends individual topics, reflecting a broader pattern of ideological divides. Furthermore, the influence of individual actors within these communities appears secondary to the reinforcing effects of selective exposure and shared narratives. Overall, our results underscore that ideological alignment, rather than actor prominence, plays a central role in structuring online discourse and shaping the spread of information in polarized environments.",
+    "doi": "10.1038/s41598-025-19776-z",
+    "cite": "Loru, E., Galeazzi, A., Bonetti, A., Sangiorgio, E., Di Marco, N., Cinelli, M., Falkenberg, M., Baronchelli, A., & Quattrociocchi, W. (2025). Ideology and polarization set the agenda on social media. Scientific Reports, 15(1). https://doi.org/10.1038/s41598-025-19776-z"
+  },
+  {
+    "title": "The simulation of judgment in LLMs",
+    "highlights": [
+     "We benchmarks six LLMs on a news credibility and bias classification task",
+     "We implement an agentic framework to enable a direct comparison with human participants",
+     "Despite output alignment, LLMs rely on superficial textual cues",
+     "LLMs show more consistent criteria selection than human participants",
+     "Epistemia: illusion of knowledge when plausiblity replaces verification"
+    ],
+    "venue": "PNAS",
+    "year": 2025,
+    "authors": "Edoardo Loru, Jacopo Nudo, Niccolò Di Marco, Alessandro Santirocchi, Roberto Atzeni, Matteo Cinelli, Vincenzo Cestari, Clelia Rossi-Arnaud, Walter Quattrociocchi",
+    "abstract": "Large Language Models (LLMs) are increasingly embedded in evaluative processes, from information filtering to assessing and addressing knowledge gaps through explanation and credibility judgments. This raises the need to examine how such evaluations are built, what assumptions they rely on, and how their strategies diverge from those of humans. We benchmark six LLMs against expert ratings—NewsGuard and Media Bias/Fact Check—and against human judgments collected through a controlled experiment. We use news domains purely as a controlled benchmark for evaluative tasks, focusing on the underlying mechanisms rather than on news classification per se. To enable direct comparison, we implement a structured agentic framework in which both models and nonexpert participants follow the same evaluation procedure: selecting criteria, retrieving content, and producing justifications. Despite output alignment, our findings show consistent differences in the observable criteria guiding model evaluations, suggesting that lexical associations and statistical priors could influence evaluations in ways that differ from contextual reasoning. This reliance is associated with systematic effects: political asymmetries and a tendency to confuse linguistic form with epistemic reliability—a dynamic we term epistemia, the illusion of knowledge that emerges when surface plausibility replaces verification. Indeed, delegating judgment to such systems may affect the heuristics underlying evaluative processes, suggesting a shift from normative reasoning toward pattern-based approximation and raising open questions about the role of LLMs in evaluative processes.",
+    "doi": "10.1073/pnas.2518443122",
+    "cite": "Loru, E., Nudo, J., Di Marco, N., Santirocchi, A., Atzeni, R., Cinelli, M., Cestari, V., Rossi-Arnaud, C., & Quattrociocchi, W. (2025). The simulation of judgment in LLMs. Proceedings of the National Academy of Sciences, 122(42). https://doi.org/10.1073/pnas.2518443122"
+  },
+  {
+    "title": "Patterns, Models, and Challenges in Online Social Media: A Survey",
+    "venue": "arXiv",
+    "year": 2025,
+    "authors": "Niccolò Di Marco, Anita Bonetti, Edoardo Di Martino, Edoardo Loru, Jacopo Nudo, Mario Edoardo Pandolfo, Giulio Pecile, Emanuele Sangiorgio, Irene Scalco, Simon Zollo, Matteo Cinelli, Fabiana Zollo, Walter Quattrociocchi",
+    "abstract": "The rise of digital platforms has enabled the large scale observation of individual and collective behavior through high resolution interaction data. This development has opened new analytical pathways for investigating how information circulates, how opinions evolve, and how coordination emerges in online environments. Yet despite a growing body of research, the field remains fragmented and marked by methodological heterogeneity, limited model validation, and weak integration across domains. This survey offers a systematic synthesis of empirical findings and formal models. We examine platform-level regularities, assess the methodological architectures that generate them, and evaluate the extent to which current modeling frameworks account for observed dynamics. The goal is to consolidate a shared empirical baseline and clarify the structural constraints that shape inference in this domain, laying the groundwork for more robust, comparable, and actionable analyses of online social systems.",
+    "doi": "10.48550/arXiv.2507.13379",
+    "cite": "Di Marco, N., Bonetti, A., Di Martino, E., Loru, E., Nudo, J., Pandolfo, M. E., Pecile, G., Sangiorgio, E., Scalco, I., Zollo, S., Cinelli, M., Zollo, F., & Quattrociocchi, W. (2025). Patterns, Models, and Challenges in Online Social Media: A Survey (Version 1). arXiv. https://doi.org/10.48550/ARXIV.2507.13379"
+  },
+  {
+    "title": "Modelling Infodemics on a Global Scale: A 30 Countries Study using Epidemiological and Social Listening Data",
+    "highlights": [
+      "We model the global relationship between the COVID-19 epidemic and infodemic",
+      "We rely on social listening data, official WHO data on cases and deaths, and Google Trends",
+      "New deaths are the strongest predictor of the infodemic, especially in neighboring countries",
+      "We propose a country-level taxonomy and show the temporal evolution of the relationship between the two phenomena"
+    ],
+    "venue": "arXiv",
+    "year": 2025,
+    "authors": "Edoardo Loru, Marco Delmastro, Francesco Gesualdo, Matteo Cinelli",
+    "abstract": "Infodemics are a threat to public health, arising from multiple interacting phenomena occurring both online and offline. The continuous feedback loops between the digital information ecosystem and offline contingencies make infodemics particularly challenging to define operationally, measure, and eventually model in quantitative terms. In this study, we present evidence of the effect of various epidemic-related variables on the dynamics of infodemics, using a robust modelling framework applied to data from 30 countries across diverse income groups. We use WHO COVID-19 surveillance data on new cases and deaths, vaccination data from the Oxford COVID-19 Government Response Tracker, infodemic data (volume of public conversations and social media content) from the WHO EARS platform, and Google Trends data to represent information demand. Our findings show that new deaths are the strongest predictor of the infodemic, measured as new document production including social media content and public conversations, and that the epidemic burden in neighbouring countries appears to have a greater impact on document production than the domestic one. Building on these results, we propose a taxonomy that highlights country-specific discrepancies between the evolution of the infodemic and the epidemic. Further, an analysis of the temporal evolution of the relationship between the two phenomena quantifies how much the discussions around vaccine rollouts may have shaped the development of the infodemic. The insights from our quantitative model contribute to advancing infodemic research, highlighting the importance of a holistic approach integrating both online and offline dimensions.",
+    "doi": "10.48550/arXiv.2501.19016",
+    "cite": "Loru, E., Delmastro, M., Gesualdo, F., & Cinelli, M. (2025). Modelling Infodemics on a Global Scale: A 30 Countries Study using Epidemiological and Social Listening Data (Version 1). arXiv. https://doi.org/10.48550/ARXIV.2501.19016"
+  },
+  {
+    "title": "Decoding Musical Evolution Through Network Science",
+    "highlights": [
+      "We analyze 20,000 compositions in MIDI format across genres and over time",
+      "Applying a network science approach, we provide data-driven proxies of music complexity",
+      "We identify differences in complexity and melodic diversity, particularly for Classical and Jazz"
+    ],
+    "venue": "arXiv",
+    "year": 2025,
+    "authors": "Niccolò Di Marco, Edoardo Loru, Alessandro Galeazzi, Matteo Cinelli, Walter Quattrociocchi",
+    "abstract": "Music has always been central to human culture, reflecting and shaping traditions, emotions, and societal changes. Technological advancements have transformed how music is created and consumed, influencing tastes and the music itself. In this study, we use Network Science to analyze musical complexity. Drawing on ≈20,000 MIDI files across six macro-genres spanning nearly four centuries, we represent each composition as a weighted directed network to study its structural properties. Our results show that Classical and Jazz compositions have higher complexity and melodic diversity than recently developed genres. However, a temporal analysis reveals a trend toward simplification, with even Classical and Jazz nearing the complexity levels of modern genres. This study highlights how digital tools and streaming platforms shape musical evolution, fostering new genres while driving homogenization and simplicity.",
+    "doi": "10.48550/arXiv.2501.07557",
+    "cite": "Di Marco, N., Loru, E., Galeazzi, A., Cinelli, M., & Quattrociocchi, W. (2025). Decoding Musical Evolution Through Network Science (Version 1). arXiv. https://doi.org/10.48550/ARXIV.2501.07557"
+  },
+  {
+    "title": "Patterns of linguistic simplification on social media platforms over time",
+    "highlights": [
+     "We analyze linguistic features of 300M messages from 8 social media platforms",
+     "We study vocabulary size and linguistic richness at the user level over time",
+     "We find a nearly universal trend toward simplification",
+     "Still, users consistently introduce new words into their vocabulary"
+    ],
+    "venue": "PNAS",
+    "year": 2024,
+    "authors": "Niccolò Di Marco, Edoardo Loru, Anita Bonetti, Alessandra Olga Grazia Serra, Matteo Cinelli, Walter Quattrociocchi",
+    "abstract": "Understanding the impact of digital platforms on user behavior presents foundational challenges, including issues related to polarization, misinformation dynamics, and variation in news consumption. Comparative analyses across platforms and over different years can provide critical insights into these phenomena. This study investigates the linguistic characteristics of user comments over 34 y, focusing on their complexity and temporal shifts. Using a dataset of approximately 300 million English comments from eight diverse platforms and topics, we examine user communications’ vocabulary size and linguistic richness and their evolution over time. Our findings reveal consistent patterns of complexity across social media platforms and topics, characterized by a nearly universal reduction in text length, diminished lexical richness, and decreased repetitiveness. Despite these trends, users consistently introduce new words into their comments at a nearly constant rate. This analysis underscores that platforms only partially influence the complexity of user comments but, instead, it reflects a broader pattern of linguistic change driven by social triggers, suggesting intrinsic tendencies in users’ online interactions comparable to historically recognized linguistic hybridization and contamination processes.",
+    "doi": "10.1073/pnas.2412105121",
+    "cite": "Di Marco, N., Loru, E., Bonetti, A., Serra, A. O. G., Cinelli, M., & Quattrociocchi, W. (2024). Patterns of linguistic simplification on social media platforms over time. Proceedings of the National Academy of Sciences, 121(50). https://doi.org/10.1073/pnas.2412105121"
+  },
+  {
+    "title": "The influence of coordinated behavior on toxicity",
+    "highlights": [
+     "We analyze online coordinated behavior and toxicity in the UK 2019 Twitter debate",
+     "Coordinated users tend to reshare less toxic content, irrespective of political leaning",
+     "Different coordinated communities show different toxicity patterns",
+     "Coordinated users only have a limited impact on the toxicity displayed by other users"
+    ],
+    "venue": "Online Social Networks and Media",
+    "year": 2024,
+    "authors": "Edoardo Loru, Matteo Cinelli, Maurizio Tesconi, Walter Quattrociocchi",
+    "abstract": "In the intricate landscape of social media, genuine content dissemination may be altered by a number of threats. Coordinated Behavior (CB), defined as orchestrated efforts by entities to deceive or mislead users about their identity and intentions, emerges as a tactic to exploit or manipulate online discourse. This study delves into the relationship between CB and toxic conversation on X (formerly known as Twitter). Using a dataset of 11 million tweets from 1 million users preceding the 2019 UK general election, we show that users displaying CB typically disseminate less harmful content, irrespective of political affiliation. However, distinct toxicity patterns emerge among different coordinated cohorts. Compared to their non-CB counterparts, CB participants show marginally higher toxicity levels only when considering their original posts. We further show the effects of CB-driven toxic content on non-CB users, gauging its impact based on political leanings. Our findings suggest that CB only has a limited impact on the toxicity of digital discourse.",
+    "doi": "10.1016/j.osnem.2024.100289",
+    "cite": "Loru, E., Cinelli, M., Tesconi, M., & Quattrociocchi, W. (2024). The influence of coordinated behavior on toxicity. Online Social Networks and Media, 43–44, 100289. https://doi.org/10.1016/j.osnem.2024.100289"
+  }
+]

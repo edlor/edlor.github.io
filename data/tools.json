@@ -1,0 +1,117 @@
+{
+  "data manipulation": [
+    {
+      "name": "polars",
+      "url": "https://docs.pola.rs/user-guide/getting-started/",
+      "tooltip": "Best dataframe library around, for its combination of speed, lazy evaluation, support of many formats, and expressive syntax. Written in Rust and available for both Python and R. If you're a dplyr user, you may want to check out tidypolars, as well!"
+    },
+    {
+      "name": "dplyr",
+      "url": "https://dplyr.tidyverse.org",
+      "tooltip": "Verb-based approach to data manipulation for R. Operations can be chained in an extremely intuitive way. Ideal for data exploration or for tidying data before plotting."
+    },
+    {
+      "name": "tidyr",
+      "url": "https://tidyr.tidyverse.org",
+      "tooltip": "Ideal companion to dplyr. I mainly use it for its pivot_* functions."
+    },
+    {
+      "name": "data.table",
+      "url": "https://rdatatable.gitlab.io/data.table/",
+      "tooltip": "Very fast R library for data manipulation with concise syntax. Well integrated within the R ecosystem and with no dependencies (i.e., reliable). Can even be used as a backend for dplyr!"
+    }
+  ],
+  "data viz": [
+    {
+      "name": "ggplot2",
+      "url": "https://ggplot2.tidyverse.org",
+      "tooltip": "De-facto standard plotting library in R. Easy to use and with lots of extensions."
+    },
+    {
+      "name": "seaborn",
+      "url": "https://seaborn.pydata.org/",
+      "tooltip": "I hate matplotlib's syntax. Seaborn makes plotting on Python bearable."
+    },
+    {
+      "name": "plotnine",
+      "url": "https://plotnine.org",
+      "tooltip": "Python library *heavily* inspired by ggplot2 (basically a port)."
+    },
+    {
+      "name": "gephi",
+      "url": "http://gephi.org/",
+      "tooltip": "Open-source software to visualize graphs and networks. Very useful for exploration, also thanks to its fast layout algorithms. There's also a (nicer) web-based version called Gephi Lite."
+    }
+  ],
+  "llms": [
+    {
+      "name": "ellmer",
+      "url": "https://ellmer.tidyverse.org",
+      "tooltip": "As official support for R is lackluster, this is a great library to interface with all kinds of model providers, both remote and local. It's also part of the tidyverse! Other R alternatives are tidyllm, mall, or ollamar and rollama (as ollama-only interfaces)."
+    },
+    {
+      "name": "adk",
+      "url": "https://github.com/google/adk-python",
+      "tooltip": "Python toolkit by Google to develop and deploy AI agents. Flexible, powerful, and well documented. An easier-to-start-with alternative is HuggingFace's smolagents, also for Python."
+    },
+    {
+      "name": "ollama",
+      "url": "https://ollama.com",
+      "tooltip": "Not a library per se, but a great tool to run and manage local LLMs. Runs in the background and exposes a REST API any other library can easily interface with."
+    }
+  ],
+  "other pkgs": [
+    {
+      "name": "igraph",
+      "url": "https://igraph.org",
+      "tooltip": "Imo, the best library for network analysis. Written in C and available for both R and Python."
+    },
+    {
+      "name": "cli",
+      "url": "http://cli.r-lib.org",
+      "tooltip": "R library to prettify console output. It can show formatted text, such as headings or bullet lists, and progress bars. Extremely easy to use, too!"
+    },
+    {
+      "name": "httr2",
+      "url": "https://httr2.r-lib.org",
+      "tooltip": "R library built on top of curl to work with web APIs. Amazing syntax and with many out-of-the-box features, such as automatic retries, parallel requests, and credentials handling. Wish something like it existed for Python."
+    },
+    {
+      "name": "graph-tool",
+      "url": "https://graph-tool.skewed.de",
+      "tooltip": "Network analysis toolkit for Python. Fast and feature-rich, though I can't quite get my head around its interface. I mostly use it for its implementation of stochastic block modeling."
+    },
+    {
+      "name": "markitdown",
+      "url": "https://github.com/microsoft/markitdown",
+      "tooltip": "Python utility to convert a wide range of formats into Markdown, particularly for use with LLMs or in other NLP pipelines."
+    }
+  ],
+  "aux tools": [
+    {
+      "name": "zed",
+      "url": "https://zed.dev/",
+      "tooltip": "Minimal (but powerful) code editor. Fast, has support for many languages, and has a number of great features out of the box that are also easy to use (such as remote devolopment)."
+    },
+    {
+      "name": "docker",
+      "url": "https://www.docker.com",
+      "tooltip": "Hard to summarize it if you don't know about it, but it's a containerization tool. It allows creating isolated environments (like virtual machines, but much lighter and faster) for reproducible projects."
+    },
+    {
+      "name": "uv",
+      "url": "https://docs.astral.sh/uv/",
+      "tooltip": "Package and project manager for Python. Extremely fast and easy to use, it has replaced conda/pip/venv for me."
+    },
+    {
+      "name": "renv",
+      "url": "https://rstudio.github.io/renv/index.html",
+      "tooltip": "Package to create reproducible environments for R. Works great but doesn't also manage the R installation, just the packages. But can be used alongside docker. Alternatives are in development, such as rv (inspired by Python's uv) and rix (based on Nix)."
+    },
+    {
+      "name": "micromamba",
+      "url": "https://mamba.readthedocs.io/en/latest/user_guide/micromamba.html",
+      "tooltip": "This is a lightweight version of mamba, which is itself a rewrite of (the much slower) conda. Works great, but these days I tend to rely on uv."
+    }
+  ]
+}
