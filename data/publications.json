@@ -1,5 +1,20 @@
 [
   {
+    "title": "Hyperactive Minority Alter the Stability of Community Notes",
+    "highlights": [
+      "We analyze Community Notes on X between 2021 and 2025",
+      "A small minority of contributors is responsibile for the majority of ratings",
+      "This minority is also the most politically polarized",
+      "We show that highly active users affect note emergence, via counterfactual analysis",
+    ],
+    "venue": "arXiv",
+    "year": 2026,
+    "authors": "Jacopo Nudo, Eugenio Nerio Nemmi, Edoardo Loru, Alessandro Mei, Walter Quattrociocchi, Matteo Cinelli",
+    "abstract": "As platforms increasingly scale down professional fact-checking, community-based alternatives are promoted as more transparent and democratic. The main substitute being proposed is community-based contextualization, most notably Community Notes on X, where users write annotations and collectively rate their helpfulness under a consensus-oriented algorithm. This shift raises a basic empirical question: to what extent do users' social dynamics affect the emergence of Community Notes? We address this question by characterizing participation and political behavior, using the full public release of notes and ratings (between 2021 and 2025). We show that contribution activity is highly concentrated: a small minority of users accounts for a disproportionate share of ratings. Crucially, these high-activity contributors are not neutral volunteers: they are selective in the content they engage with and substantially more politically polarized than the overall contributor population. We replicate the notes' emergence process by integrating the open-source implementation of the Community Notes consensus algorithm used in production. This enables us to conduct counterfactual simulations that modify the display status of notes by varying the pool of raters. Our results reveal that the system is structurally unstable: the emergence and visibility of notes often depend on the behavior of a few dozen highly active users, and even minor perturbations in their participation can lead to markedly different outcomes. In sum, rather than decentralizing epistemic authority, community-based fact-checking on X reconfigures it, concentrating substantial power in the hands of a small, polarized group of highly active contributors.",
+    "doi": "10.48550/arXiv.2602.08970",
+    "cite": "Nudo, J., Nemmi, E. N., Loru, E., Mei, A., Quattrociocchi, W., & Cinelli, M. (2026). Hyperactive Minority Alter the Stability of Community Notes (Version 1). arXiv. https://doi.org/10.48550/ARXIV.2602.08970"
+  },
+  {
     "title": "Wikipedia and Grokipedia: A Comparison of Human and Generative Encyclopedias",
     "highlights": [
       "We compare Wikipedia and Grokipedia v0.1",
