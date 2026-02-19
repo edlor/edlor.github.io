@@ -1,6 +1,12 @@
 {
   "media": [
     {
+      "name": "What we risk when we confuse AI and human intelligence",
+      "source": "Scientific American",
+      "date": "Feb 2026",
+      "url": "https://www.scientificamerican.com/article/ai-and-human-intelligence-are-drastically-different-heres-how/"
+    },
+    {
       "name": "Rumors of AGI’s arrival have been greatly exaggerated",
       "source": "Gary Marcus (Substack)",
       "date": "Feb 2026",
@@ -59,12 +65,6 @@
       "source": "Corriere della Sera",
       "date": "Oct 2025",
       "url": "https://www.corriere.it/tecnologia/25_ottobre_13/l-ai-ha-un-pregiudizio-politico-studio-italiano-rivela-perche-i-siti-di-destra-sono-etichettati-spesso-come-inaffidabili-c929f490-b3d4-4506-8e0a-15c3d5069xlk.shtml"
-    },
-    {
-      "name": "Possiamo davvero usare l’intelligenza artificiale per contrastare le fake news?",
-      "source": "Wired",
-      "date": "Feb 2025",
-      "url": "https://www.wired.it/article/fake-news-intelligenza-artificiale-fact-checking/"
     }
   ]
 }
