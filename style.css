@@ -201,6 +201,41 @@ li {
     margin-bottom: 5px;
 }
 
+/*li.selected-paper {
+  list-style: none;
+  margin-left: -15px;
+}
+
+li.selected-paper::before {
+  content: "◆ ";
+  color: #c97800;
+  font-size: 0.75em;
+  /*vertical-align: middle;*/
+}
+
+li.selected-paper > details {
+  display: inline;
+}
+
+li.selected-paper {
+  color: #c97800;
+}
+
+li.selected-paper > details {
+  color: #000000;
+}
+
+@media (prefers-color-scheme: dark) {
+  li.selected-paper > details {
+    color: #dddddd;
+  }
+}
+
+#publications h3 {
+  margin-left: 20px;
+  margin-bottom: -15px;
+}
+
 a {
     color: black;
     text-decoration: none;

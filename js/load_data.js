@@ -1,60 +1,77 @@
 async function loadPublications() {
   const container = document.getElementById("publications");
   if (!container) return;
-
   const res = await fetch("data/publications.json");
   const papers = await res.json();
 
-  const ul = document.createElement("ul");
-  ul.className = "paper-list";
+  function createList(items) {
+    const ul = document.createElement("ul");
+    ul.className = "paper-list";
+    items.forEach(p => {
+      const authors = p.authors.replaceAll(
+        "Edoardo Loru",
+        "<b>Edoardo Loru</b>"
+      );
+      const li = document.createElement("li");
+      if (p.selected) li.classList.add("selected-paper");
+      const star = p.selected ? '<span class="star">★</span> ' : '';
+      li.innerHTML = `
+            <details class="paper-entry">
+               <summary>
+                  <a data-tooltip="click me!">"${p.title}"</a>
+            <span class="paper-meta">
+              ,<em> ${p.venue}</em>, ${p.year}
+            </span>
+          </summary>
+          <div class="abstract-box">
+            <p>
+              authors:
+              <br>
+              ${authors}
+              <br><br>
+              ${p.highlights ? `
+              highlights:
+              <ul>
+                ${p.highlights.map(hl => `<li>${hl}</li>`).join('')}
+              </ul><br>` : ''}
+              abstract:
+              <br>
+              ${p.abstract}
+              <br><br>
+              doi:
+              <br>
+              <a href="https://doi.org/${p.doi}" target="_blank">${p.doi}</a>
+              <br><br>
+              cite:
+              <br>
+              ${p.cite}
+              <br>
+              <a href="https://doi2bib.org/bib/${p.doi}" target="_blank">{bib}</a>
+            </p>
+          </div>
+        </details>
+      `;
+      ul.appendChild(li);
+    });
+    return ul;
+  }
 
-  papers.forEach(p => {
-    const authors = p.authors.replaceAll(
-      "Edoardo Loru",
-      "<b>Edoardo Loru</b>"
-    );
+  const preprints = papers.filter(p => p.venue === "arXiv");
+  const publications = papers.filter(p => p.venue !== "arXiv");
 
-    const li = document.createElement("li");
-    li.innerHTML = `
-      <details class="paper-entry">
-        <summary>
-          <a data-tooltip="click me!">"${p.title}"</a>
-          <span class="paper-meta">
-            ,<em> ${p.venue}</em>, ${p.year}
-          </span>
-        </summary>
-        <div class="abstract-box">
-          <p>
-            authors:
-            <br>
-            ${authors}
-            <br><br>
-            ${p.highlights ? `
-            highlights:
-            <ul>
-              ${p.highlights.map(hl => `<li>${hl}</li>`).join('')}
-            </ul><br>` : ''}
-            abstract:
-            <br>
-            ${p.abstract}
-            <br><br>
-            doi:
-            <br>
-            <a href="https://doi.org/${p.doi}" target="_blank">${p.doi}</a>
-            <br><br>
-            cite:
-            <br>
-            ${p.cite}
-            <br>
-            <a href="https://doi2bib.org/bib/${p.doi}" target="_blank">{bib}</a>
-          </p>
-        </div>
-      </details>
-    `;
-    ul.appendChild(li);
-  });
+  if (publications.length > 0) {
+    const h3pub = document.createElement("h3");
+    h3pub.textContent = "Publications";
+    container.appendChild(h3pub);
+    container.appendChild(createList(publications));
+  }
 
-  container.appendChild(ul);
+  if (preprints.length > 0) {
+    const h3pre = document.createElement("h3");
+    h3pre.textContent = "Preprints";
+    container.appendChild(h3pre);
+    container.appendChild(createList(preprints));
+  }
 }
 
 async function loadTools() {
