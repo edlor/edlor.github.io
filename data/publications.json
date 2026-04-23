@@ -1,5 +1,20 @@
 [
   {
+    "title": "Decoding the evolution of melodic and harmonic structure of Western music through the lens of network science",
+    "highlights": [
+      "We analyze 20,000 compositions in MIDI format across genres and over time",
+      "Applying a network science approach, we provide data-driven proxies of music complexity",
+      "We identify differences in complexity and melodic diversity, particularly for Classical and Jazz"
+    ],
+    "venue": "Scientific Reports",
+    "year": 2026,
+    "authors": "Niccolò Di Marco, Edoardo Loru, Alessandro Galeazzi, Matteo Cinelli, Walter Quattrociocchi",
+    "abstract": "Music has always been central to human culture, reflecting and shaping traditions, emotions, and societal changes. Therefore, analysing the quantitative properties of musical compositions can provide insights into specific aspects of human cultural evolution. In this study, we conduct a large-scale analysis of approximately 20,000 musical pieces rooted in Western musical practices. The resulting dataset encompasses MIDI transcriptions of works from six major macro-genres, spanning nearly four centuries of musical history. We model musical composition as weighted directed networks, enabling a systematic investigation of melodic and harmonic properties through a network-based representation of music. Our results show that different genres have distinct topological and musical properties, providing valuable insights into the origins of their differences. Moreover, a temporal analysis reveals systematic changes in network-based measures, suggesting a trend toward increasing similarity and reduced complexity in the melodic and harmonic structures. Notably, within this analytical perspective, even long-established and structurally complex genres such as Classical and Jazz display patterns that are increasingly comparable to those of more recent genres.",
+    "doi": "10.1038/s41598-026-42872-7",
+    "cite": "Di Marco, N., Loru, E., Galeazzi, A., Cinelli, M., & Quattrociocchi, W. (2026). Decoding the evolution of melodic and harmonic structure of Western music through the lens of network science. Scientific Reports, 16(1). https://doi.org/10.1038/s41598-026-42872-7",
+    "selected": false
+  },
+  {
     "title": "The Statistical Signature of LLMs",
     "venue": "arXiv",
     "year": 2026,
@@ -60,10 +75,10 @@
   {
     "title": "A Compression-Based Approach to Detecting Automated and Coordinated Behavior on Social Media",
     "highlights": [
-     "We propose a new method for suspicious users detection on social media",
-     "User activity is encoded as a string and then compressed with gzip",
-     "User similarity network is constructed with a novel linear-time heuristic",
-     "The method is competitive across both bot and CB detection datasets"
+      "We propose a new method for suspicious users detection on social media",
+      "User activity is encoded as a string and then compressed with gzip",
+      "User similarity network is constructed with a novel linear-time heuristic",
+      "The method is competitive across both bot and CB detection datasets"
     ],
     "venue": "ACM Transactions on Knowledge Discovery from Data",
     "year": 2025,
@@ -76,11 +91,11 @@
   {
     "title": "Ideology and polarization set the agenda on social media",
     "highlights": [
-     "We analyze engagement across three global debates on X",
-     "Discussions are not primarily driven by specific actors, such as media or politicians",
-     "The main driver is shared ideological alignment and polarization",
-     "A mainstream vs alternative configuration emerges across all debates",
-     "User stance in one debate predicts their stance in another"
+      "We analyze engagement across three global debates on X",
+      "Discussions are not primarily driven by specific actors, such as media or politicians",
+      "The main driver is shared ideological alignment and polarization",
+      "A mainstream vs alternative configuration emerges across all debates",
+      "User stance in one debate predicts their stance in another"
     ],
     "venue": "Scientific Reports",
     "year": 2025,
@@ -93,11 +108,11 @@
   {
     "title": "The simulation of judgment in LLMs",
     "highlights": [
-     "We benchmarks six LLMs on a news credibility and bias classification task",
-     "We implement an agentic framework to enable a direct comparison with human participants",
-     "Despite output alignment, LLMs rely on superficial textual cues",
-     "LLMs show more consistent criteria selection than human participants",
-     "Epistemia: illusion of knowledge when plausiblity replaces verification"
+      "We benchmarks six LLMs on a news credibility and bias classification task",
+      "We implement an agentic framework to enable a direct comparison with human participants",
+      "Despite output alignment, LLMs rely on superficial textual cues",
+      "LLMs show more consistent criteria selection than human participants",
+      "Epistemia: illusion of knowledge when plausiblity replaces verification"
     ],
     "venue": "PNAS",
     "year": 2025,
@@ -134,27 +149,12 @@
     "selected": false
   },
   {
-    "title": "Decoding Musical Evolution Through Network Science",
-    "highlights": [
-      "We analyze 20,000 compositions in MIDI format across genres and over time",
-      "Applying a network science approach, we provide data-driven proxies of music complexity",
-      "We identify differences in complexity and melodic diversity, particularly for Classical and Jazz"
-    ],
-    "venue": "arXiv",
-    "year": 2025,
-    "authors": "Niccolò Di Marco, Edoardo Loru, Alessandro Galeazzi, Matteo Cinelli, Walter Quattrociocchi",
-    "abstract": "Music has always been central to human culture, reflecting and shaping traditions, emotions, and societal changes. Technological advancements have transformed how music is created and consumed, influencing tastes and the music itself. In this study, we use Network Science to analyze musical complexity. Drawing on ≈20,000 MIDI files across six macro-genres spanning nearly four centuries, we represent each composition as a weighted directed network to study its structural properties. Our results show that Classical and Jazz compositions have higher complexity and melodic diversity than recently developed genres. However, a temporal analysis reveals a trend toward simplification, with even Classical and Jazz nearing the complexity levels of modern genres. This study highlights how digital tools and streaming platforms shape musical evolution, fostering new genres while driving homogenization and simplicity.",
-    "doi": "10.48550/arXiv.2501.07557",
-    "cite": "Di Marco, N., Loru, E., Galeazzi, A., Cinelli, M., & Quattrociocchi, W. (2025). Decoding Musical Evolution Through Network Science (Version 1). arXiv. https://doi.org/10.48550/ARXIV.2501.07557",
-    "selected": false
-  },
-  {
     "title": "Patterns of linguistic simplification on social media platforms over time",
     "highlights": [
-     "We analyze linguistic features of 300M messages from 8 social media platforms",
-     "We study vocabulary size and linguistic richness at the user level over time",
-     "We find a nearly universal trend toward simplification",
-     "Still, users consistently introduce new words into their vocabulary"
+      "We analyze linguistic features of 300M messages from 8 social media platforms",
+      "We study vocabulary size and linguistic richness at the user level over time",
+      "We find a nearly universal trend toward simplification",
+      "Still, users consistently introduce new words into their vocabulary"
     ],
     "venue": "PNAS",
     "year": 2024,
@@ -167,10 +167,10 @@
   {
     "title": "The influence of coordinated behavior on toxicity",
     "highlights": [
-     "We analyze online coordinated behavior and toxicity in the UK 2019 Twitter debate",
-     "Coordinated users tend to reshare less toxic content, irrespective of political leaning",
-     "Different coordinated communities show different toxicity patterns",
-     "Coordinated users only have a limited impact on the toxicity displayed by other users"
+      "We analyze online coordinated behavior and toxicity in the UK 2019 Twitter debate",
+      "Coordinated users tend to reshare less toxic content, irrespective of political leaning",
+      "Different coordinated communities show different toxicity patterns",
+      "Coordinated users only have a limited impact on the toxicity displayed by other users"
     ],
     "venue": "Online Social Networks and Media",
     "year": 2024,
