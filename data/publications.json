@@ -1,5 +1,15 @@
 [
   {
+    "title": "Patterns, Models, and Challenges in Online Social Media: A Survey",
+    "venue": "ACM Transactions on the Web",
+    "year": 2026,
+    "authors": "Niccolò Di Marco, Anita Bonetti, Edoardo Di Martino, Edoardo Loru, Jacopo Nudo, Mario Edoardo Pandolfo, Giulio Pecile, Emanuele Sangiorgio, Irene Scalco, Simon Zollo, Matteo Cinelli, Fabiana Zollo, Walter Quattrociocchi",
+    "abstract": "The rise of digital platforms has enabled the large-scale observation of individual and collective behavior through high-resolution interaction data. This development has opened new analytical pathways for investigating how information circulates, how opinions evolve, and how coordination emerges in online environments. Yet despite a growing body of research, the field remains fragmented, marked by methodological heterogeneity, limited model validation, and weak integration across domains. In this survey, we address this gap by systematically reviewing the literature on online collective behavior, integrating empirical findings with formal modeling approaches. We examine platform-level regularities, the methodological choices used to identify them, and the extent to which existing modeling frameworks capture the observed dynamics. Rather than aiming for exhaustive coverage of individual subfields, we provide a structural and comparative synthesis of recurring empirical patterns, methodological approaches, and modeling assumptions that span across platforms and domains. The overarching goal is to consolidate a shared empirical baseline and to clarify the structural constraints shaping inference in this area, thereby laying the groundwork for more robust, comparable, and actionable analyses of online social media.",
+    "doi": "10.1145/3796548",
+    "cite": "Di Marco, N., Bonetti, A., Di Martino, E., Loru, E., Nudo, J., Pandolfo, M. E., Pecile, G., Sangiorgio, E., Scalco, I., Zollo, S., Cinelli, M., Zollo, F., & Quattrociocchi, W. (2026). Patterns, Models, and Challenges in Online Social Media: A Survey. ACM Transactions on the Web, 20(2), 1–34. https://doi.org/10.1145/3796548",
+    "selected": false
+  },
+  {
     "title": "Decoding the evolution of melodic and harmonic structure of Western music through the lens of network science",
     "highlights": [
       "We analyze 20,000 compositions in MIDI format across genres and over time",
@@ -121,16 +131,6 @@
     "doi": "10.1073/pnas.2518443122",
     "cite": "Loru, E., Nudo, J., Di Marco, N., Santirocchi, A., Atzeni, R., Cinelli, M., Cestari, V., Rossi-Arnaud, C., & Quattrociocchi, W. (2025). The simulation of judgment in LLMs. Proceedings of the National Academy of Sciences, 122(42). https://doi.org/10.1073/pnas.2518443122",
     "selected": true
-  },
-  {
-    "title": "Patterns, Models, and Challenges in Online Social Media: A Survey",
-    "venue": "arXiv",
-    "year": 2025,
-    "authors": "Niccolò Di Marco, Anita Bonetti, Edoardo Di Martino, Edoardo Loru, Jacopo Nudo, Mario Edoardo Pandolfo, Giulio Pecile, Emanuele Sangiorgio, Irene Scalco, Simon Zollo, Matteo Cinelli, Fabiana Zollo, Walter Quattrociocchi",
-    "abstract": "The rise of digital platforms has enabled the large scale observation of individual and collective behavior through high resolution interaction data. This development has opened new analytical pathways for investigating how information circulates, how opinions evolve, and how coordination emerges in online environments. Yet despite a growing body of research, the field remains fragmented and marked by methodological heterogeneity, limited model validation, and weak integration across domains. This survey offers a systematic synthesis of empirical findings and formal models. We examine platform-level regularities, assess the methodological architectures that generate them, and evaluate the extent to which current modeling frameworks account for observed dynamics. The goal is to consolidate a shared empirical baseline and clarify the structural constraints that shape inference in this domain, laying the groundwork for more robust, comparable, and actionable analyses of online social systems.",
-    "doi": "10.48550/arXiv.2507.13379",
-    "cite": "Di Marco, N., Bonetti, A., Di Martino, E., Loru, E., Nudo, J., Pandolfo, M. E., Pecile, G., Sangiorgio, E., Scalco, I., Zollo, S., Cinelli, M., Zollo, F., & Quattrociocchi, W. (2025). Patterns, Models, and Challenges in Online Social Media: A Survey (Version 1). arXiv. https://doi.org/10.48550/ARXIV.2507.13379",
-    "selected": false
   },
   {
     "title": "Modelling Infodemics on a Global Scale: A 30 Countries Study using Epidemiological and Social Listening Data",
