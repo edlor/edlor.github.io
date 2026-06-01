@@ -1,5 +1,15 @@
 [
   {
+    "title": "Persistent Structural Inequality of Online Interactions Across Platforms",
+    "venue": "arXiv",
+    "year": 2026,
+    "authors": "Giulio Pecile, Edoardo Di Martino, Edoardo Loru, Simon Zollo, Niccolò Di Marco, Matteo Cinelli",
+    "abstract": "User interactions on social media platforms are unevenly distributed: a small subset of users consistently captures most of the activity, while the majority remains marginal. Although this pattern is well known and often described by power-law distributions, its consistency across time, platforms, and interaction types has not been systematically assessed. In this study, we analyze user-post bipartite networks from multiple social media platforms. We consider both active contributions (posts) and passive engagement (likes and comments), and quantify distributional properties and inequality using a KL-divergence-based model comparison, an inverse coefficient of variation, and a log-transformed Gini index. Our results show that interaction inequality remains stable over time within each platform. This holds across systems with different sizes, topical focuses, and governance models. These findings indicate that inequality in online engagement is not incidental but reflects structural constraints that shape how visibility and participation are distributed in digital environments.",
+    "doi": "10.48550/arXiv.2605.30996",
+    "cite": "Pecile, G., Di Martino, E., Loru, E., Zollo, S., Di Marco, N., & Cinelli, M. (2026). Persistent Structural Inequality of Online Interactions Across Platforms (Version 1). arXiv. https://doi.org/10.48550/ARXIV.2605.30996",
+    "selected": false
+  },
+  {
     "title": "Patterns, Models, and Challenges in Online Social Media: A Survey",
     "venue": "ACM Transactions on the Web",
     "year": 2026,
