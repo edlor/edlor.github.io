@@ -57,13 +57,21 @@ async function loadPublications() {
   }
 
   const preprints = papers.filter(p => p.venue === "arXiv");
-  const publications = papers.filter(p => p.venue !== "arXiv");
+  const selected = papers.filter(p => p.selected);
+  const otherPubs = papers.filter(p => !p.selected && p.venue !== "arXiv");
 
-  if (publications.length > 0) {
+  if (selected.length > 0) {
+    const h3sel = document.createElement("h3");
+    h3sel.textContent = "Selected";
+    container.appendChild(h3sel);
+    container.appendChild(createList(selected));
+  }
+
+  if (otherPubs.length > 0) {
     const h3pub = document.createElement("h3");
     h3pub.textContent = "Publications";
     container.appendChild(h3pub);
-    container.appendChild(createList(publications));
+    container.appendChild(createList(otherPubs));
   }
 
   if (preprints.length > 0) {
