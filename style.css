@@ -248,9 +248,8 @@ li.selected-paper>details {
     display: inline;
 }
 
-li.selected-paper {
+/*li.selected-paper {
     color: #000000;
-    /* #c97800; */
 }
 
 li.selected-paper>details {
@@ -261,7 +260,7 @@ li.selected-paper>details {
     li.selected-paper>details {
         color: #dddddd;
     }
-}
+}*/
 
 #publications h3 {
     margin-left: 20px;
