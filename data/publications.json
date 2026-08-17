@@ -1,5 +1,21 @@
 [
   {
+    "title": "Modelling infodemics on a global scale: A 30 countries study using epidemiological and social listening data",
+    "highlights": [
+      "We model the global relationship between the COVID-19 epidemic and infodemic",
+      "We rely on social listening data, official WHO data on cases and deaths, and Google Trends",
+      "New deaths are the strongest predictor of the infodemic, especially in neighboring countries",
+      "We propose a country-level taxonomy and show the temporal evolution of the relationship between the two phenomena"
+    ],
+    "venue": "PNAS Nexus",
+    "year": 2026,
+    "authors": "Edoardo Loru, Marco Delmastro, Francesco Gesualdo, Matteo Cinelli",
+    "abstract": "Infodemics represent a significant threat to public health, arising from complex interactions between online and offline phenomena. The continuous feedback loops between digital information ecosystems and real-world contingencies make infodemics particularly challenging to define operationally, measure, and eventually model in quantitative terms. This study aims to evaluate the effect of various epidemic-related variables on the dynamics of the COVID-19 infodemic, using a regression modelling framework applied to data from 30 countries across diverse income groups. We use WHO COVID-19 surveillance data on new cases and deaths, vaccination data from the Oxford COVID-19 Government Response Tracker, infodemic data (volume of public conversations and social media content) from the WHO EARS platform, and Google Trends data to represent information demand. Our findings show that new deaths are the strongest predictor of document production, and that the epidemic burden in neighbouring countries exerts a greater influence on document production than domestic epidemic conditions. Building on these results, we propose a data-driven classification of country-level response that highlights country-specific discrepancies between the evolution of the infodemic and the epidemic. Further, an analysis of the temporal evolution of the relationship between the two phenomena quantifies the extent to which discussions surrounding vaccine rollouts may have shaped the development of the infodemic. Beyond underscoring the value of a holistic approach that integrates both online and offline dimensions, our results demonstrate that the evolution of infodemics and their relationship with epidemic variables can be closely monitored, even over short time windows.",
+    "doi": "10.1093/pnasnexus/pgag274",
+    "cite": "Loru, E., Delmastro, M., Gesualdo, F., & Cinelli, M. (2026). Modeling infodemics on a global scale: A 30 countries study using epidemiological and social listening data. PNAS Nexus. https://doi.org/10.1093/pnasnexus/pgag274",
+    "selected": false
+  },
+  {
     "title": "Persistent Structural Inequality of Online Interactions Across Platforms",
     "venue": "arXiv",
     "year": 2026,
@@ -141,22 +157,6 @@
     "doi": "10.1073/pnas.2518443122",
     "cite": "Loru, E., Nudo, J., Di Marco, N., Santirocchi, A., Atzeni, R., Cinelli, M., Cestari, V., Rossi-Arnaud, C., & Quattrociocchi, W. (2025). The simulation of judgment in LLMs. Proceedings of the National Academy of Sciences, 122(42). https://doi.org/10.1073/pnas.2518443122",
     "selected": true
-  },
-  {
-    "title": "Modelling Infodemics on a Global Scale: A 30 Countries Study using Epidemiological and Social Listening Data",
-    "highlights": [
-      "We model the global relationship between the COVID-19 epidemic and infodemic",
-      "We rely on social listening data, official WHO data on cases and deaths, and Google Trends",
-      "New deaths are the strongest predictor of the infodemic, especially in neighboring countries",
-      "We propose a country-level taxonomy and show the temporal evolution of the relationship between the two phenomena"
-    ],
-    "venue": "arXiv",
-    "year": 2025,
-    "authors": "Edoardo Loru, Marco Delmastro, Francesco Gesualdo, Matteo Cinelli",
-    "abstract": "Infodemics are a threat to public health, arising from multiple interacting phenomena occurring both online and offline. The continuous feedback loops between the digital information ecosystem and offline contingencies make infodemics particularly challenging to define operationally, measure, and eventually model in quantitative terms. In this study, we present evidence of the effect of various epidemic-related variables on the dynamics of infodemics, using a robust modelling framework applied to data from 30 countries across diverse income groups. We use WHO COVID-19 surveillance data on new cases and deaths, vaccination data from the Oxford COVID-19 Government Response Tracker, infodemic data (volume of public conversations and social media content) from the WHO EARS platform, and Google Trends data to represent information demand. Our findings show that new deaths are the strongest predictor of the infodemic, measured as new document production including social media content and public conversations, and that the epidemic burden in neighbouring countries appears to have a greater impact on document production than the domestic one. Building on these results, we propose a taxonomy that highlights country-specific discrepancies between the evolution of the infodemic and the epidemic. Further, an analysis of the temporal evolution of the relationship between the two phenomena quantifies how much the discussions around vaccine rollouts may have shaped the development of the infodemic. The insights from our quantitative model contribute to advancing infodemic research, highlighting the importance of a holistic approach integrating both online and offline dimensions.",
-    "doi": "10.48550/arXiv.2501.19016",
-    "cite": "Loru, E., Delmastro, M., Gesualdo, F., & Cinelli, M. (2025). Modelling Infodemics on a Global Scale: A 30 Countries Study using Epidemiological and Social Listening Data (Version 1). arXiv. https://doi.org/10.48550/ARXIV.2501.19016",
-    "selected": false
   },
   {
     "title": "Patterns of linguistic simplification on social media platforms over time",
