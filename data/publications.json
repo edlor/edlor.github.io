@@ -1,5 +1,15 @@
 [
   {
+    "title": "Modelling the feedback-driven dynamics of news coverage and engagement on social media",
+    "venue": "Proceedings of the Royal Society A",
+    "year": 2026,
+    "authors": "Emanuele Sangiorgio, Niccolò Di Marco, Edoardo Loru, Matteo Cinelli, Roy Cerqueti, Walter Quattrociocchi",
+    "abstract": "Introducing large-scale feedback mechanisms and fostering decentralized information ecosystems, the rise of social media platforms disrupted the traditional agenda-setting model, originally conceptualized as a top-down flow where media sources unilaterally influence the perceived relevance of topics in the public sphere. Despite advancements of agenda-setting theory, a research gap exists about quantitatively demonstrating how engagement directly drives the persistence of thematic coverage across multiple outlets. In this work, we analyse the interplay between news coverage and user engagement across four European countries, leveraging a dataset of 65+ million Facebook posts from over 1000 sources between 2015 and 2023. We propose a data-driven model that reconstructs the key processes driving topic emergence and consolidation, integrating source activity patterns, user feedback loops and short-term memory effects. Our contribution provides mechanistic, longitudinal analysis of this process through statistical modelling, showing how engagement dynamics translates into single editorial decisions to sustain or discontinue coverage, thus shaping the collective news treatment. Our findings show that user interactions significantly determine topics' persistence or cessation, consistently across the different countries. This dynamic highlights the progressive transition from a static top-down agenda-setting paradigm to an adaptive system where users collectively influence topics' prominence through their consumption behaviour.",
+    "doi": "10.1098/rspa.2026.0159",
+    "cite": "Sangiorgio, E., Marco, N. D., Loru, E., Cinelli, M., Cerqueti, R., & Quattrociocchi, W. (2026). Modelling the feedback-driven dynamics of news coverage and engagement on social media. Proceedings of the Royal Society A Mathematical Physical and Engineering Science, 482(2346). https://doi.org/10.1098/rspa.2026.0159",
+    "selected": false
+  },
+  {
     "title": "Modelling infodemics on a global scale: A 30 countries study using epidemiological and social listening data",
     "highlights": [
       "We model the global relationship between the COVID-19 epidemic and infodemic",
