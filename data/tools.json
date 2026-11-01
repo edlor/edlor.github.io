@@ -91,7 +91,7 @@
     {
       "name": "zed",
       "url": "https://zed.dev/",
-      "tooltip": "Minimal (but powerful) code editor. Fast, has support for many languages, and has a number of great features out of the box that are also easy to use (such as remote devolopment)."
+      "tooltip": "Minimal (but powerful) code editor. Fast, has support for many languages, and has a number of great features out of the box that are also easy to use (such as remote development)."
     },
     {
       "name": "docker",
