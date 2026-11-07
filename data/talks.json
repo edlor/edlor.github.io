@@ -1,0 +1,60 @@
+{
+  "talks": [
+  	{
+      "year": 2026,
+      "title": "AI and epistemia",
+      "kind": "invited talk",
+      "event": {
+        "name": "XLVII Congresso Nazionale SIFO",
+        "url": "https://congressosifo.com/"
+      }
+    },
+    {
+      "year": 2026,
+      "title": "Research workshop on systemic risks from AI",
+      "kind": "speaker",
+      "event": {
+        "name": "Cambridge Disinformation Summit 2026",
+        "url": "https://www.jbs.cam.ac.uk/events/cambridge-disinformation-summit-2026/"
+      },
+      "video": "https://www.youtube.com/watch?v=PhBKPprZIYM"
+    },
+    {
+      "year": 2026,
+      "title": "Using compression to study social media signals",
+      "kind": "invited seminar",
+      "hosts": [
+        { "name": "Kleber Oliveira", "url": "https://www.kleber-ao.com" },
+        { "name": "Michael Quayle", "url": "https://michaelquayle.net" }
+      ]
+    },
+    {
+      "year": 2025,
+      "title": "The simulation of judgment in LLMs",
+      "kind": "invited seminar",
+      "hosts": [
+        { "name": "David G. Rand", "url": "https://davidrand-cooperation.com" }
+      ]
+    },
+    {
+      "year": 2025,
+      "title": "Decoding AI Judgment: How LLMs Assess News Credibility and Bias",
+      "kind": "contributed talk",
+      "event": {
+        "name": "IC²S² 2025",
+        "url": "https://www.ic2s2-2025.org",
+        "tooltip": "11th International Conference on Computational Social Science, Norrköping, Sweden, July 21-24, 2025"
+      }
+    },
+    {
+      "year": 2025,
+      "title": "A Compression-Based Approach to Detecting Automated and Coordinated Behavior on Social Media",
+      "kind": "contributed talk",
+      "event": {
+        "name": "NetSci 2025",
+        "url": "http://netsci2025.github.io",
+        "tooltip": "International School and Conference on Network Science, Maastricht, the Netherlands, June 2-6, 2025"
+      }
+    }
+  ]
+}

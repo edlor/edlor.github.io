@@ -1,5 +1,5 @@
 /*
-  Builds the publications, media and tools sections from data/*.json.
+  Builds the publications, talks, media and tools sections from data/*.json.
 
   data/publications.json  list of papers, newest first:
     title, venue, year, authors, abstract, doi, cite
@@ -8,6 +8,12 @@
     selected    true to also show it in the "selected" block
     highlights  optional list of short sentences
     (venue "arXiv" marks a preprint)
+
+  data/talks.json  { "talks": [...] }, newest first:
+    year, title, kind ("invited seminar", "contributed talk", ...)
+    event       optional { name, url, tooltip }
+    hosts       optional list of { name, url }, shown as "hosted by ..."
+    video       optional url
 
   data/media.json  { "media": [...] }, newest first:
     name, source, date, url
@@ -128,6 +134,50 @@ async function loadPublications() {
       <h4 class="group-title">${esc(year)}</h4>
       ${list.map(paperRow).join("")}
     </div>`).join("");
+}
+
+/* ---------- Talks ---------- */
+
+function linkHTML(item) {
+  const tip = item.tooltip ? ` data-tooltip="${esc(item.tooltip)}"` : "";
+  return `<a href="${esc(item.url)}" target="_blank"${tip}>${esc(item.name)}</a>`;
+}
+
+// "A", "A and B", "A, B and C"
+function joinNames(list) {
+  const names = list.map(linkHTML);
+  return names.length < 2 ? names.join("") : `${names.slice(0, -1).join(", ")} and ${names.at(-1)}`;
+}
+
+async function loadTalks() {
+  const container = document.getElementById("talks-list");
+  if (!container) return;
+
+  let talks;
+  try {
+    talks = (await getJSON("data/talks.json")).talks;
+  } catch (err) {
+    showError(container, "the list of talks", err);
+    return;
+  }
+
+  container.innerHTML = `
+    <ul class="rows">
+      ${talks.map(t => {
+        const meta = [esc(t.kind)];
+        if (t.event) meta.push(linkHTML(t.event));
+        if (t.hosts?.length) meta.push(`hosted by ${joinNames(t.hosts)}`);
+        if (t.video) meta.push(`<a href="${esc(t.video)}" target="_blank">video ↗</a>`);
+        return `
+          <li>
+            <span class="row-date">${esc(t.year)}</span>
+            <div>
+              ${esc(t.title)}
+              <div class="meta">${meta.join(" · ")}</div>
+            </div>
+          </li>`;
+      }).join("")}
+    </ul>`;
 }
 
 /* ---------- Media ---------- */
@@ -292,6 +342,7 @@ document.addEventListener("DOMContentLoaded", () => {
   showEmail();
   setupThemeToggle();
   loadPublications();
+  loadTalks();
   loadMedia();
   loadTools();
 });
