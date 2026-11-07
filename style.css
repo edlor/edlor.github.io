@@ -216,13 +216,14 @@ h3 {
   padding: 48px 24px;
 }
 
-/* The left column follows the scroll. If it is taller than the window it
+/* The left column follows the scroll. top matches the .page top padding, so
+   it stays put from the first pixel. If it is taller than the window it
    scrolls on its own; the padding keeps the hard shadow from being cut off. */
 .side {
   grid-column: 1;
   grid-row: 1;
   position: sticky;
-  top: 24px;
+  top: 48px;
   max-height: calc(100vh - 48px);
   overflow-y: auto;
   padding: 0 4px 4px 0;
