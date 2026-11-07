@@ -266,8 +266,9 @@ h3 {
   color: var(--faint);
 }
 
+/* Menu jumps stop level with the sticky left column (same as .side top) */
 section.card {
-  scroll-margin-top: 24px;
+  scroll-margin-top: 48px;
 }
 
 /* Small group title: mono, dotted rule under */
@@ -756,6 +757,10 @@ section.card {
     max-height: none;
     overflow: visible;
     padding: 0;
+  }
+
+  section.card {
+    scroll-margin-top: 24px;
   }
 
   .main {
